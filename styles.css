@@ -1,0 +1,19 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+}
+
+.left img {
+  display: flex;
+  height: 100vh;
+  width: auto;
+  object-fit: cover;
+}
+
+.right {
+  display: flex;
+}
