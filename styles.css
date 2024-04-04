@@ -7,11 +7,16 @@ body {
   display: flex;
 }
 
-.left img {
+.left {
+  float: left;
+}
+
+.left {
   display: flex;
   height: 100vh;
-  width: auto;
-  object-fit: cover;
+  width: 500px;
+  background-image: url(/Users/santiago/sign-up-form/samuel-ferrara-1527pjeb6jg-unsplash.jpg);
+  background-size: cover;
 }
 
 .right {
