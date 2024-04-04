@@ -1,6 +1,14 @@
+html,
 body {
   padding: 0;
   margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: "Norse Bold";
+  src: url(/Users/santiago/sign-up-form/Norse-Bold.otf);
 }
 
 .container {
@@ -8,15 +16,43 @@ body {
 }
 
 .left {
-  float: left;
-}
-
-.left {
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   height: 100vh;
-  width: 500px;
+  width: 35%;
   background-image: url(/Users/santiago/sign-up-form/samuel-ferrara-1527pjeb6jg-unsplash.jpg);
   background-size: cover;
+  overflow: hidden;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 200px;
+  align-items: center;
+  position: relative;
+  top: 10%;
+  gap: 20px;
+}
+
+img {
+  height: 80px;
+  color: white;
+}
+
+h1 {
+  color: white;
+  font-size: 77px;
+  font-family: "Norse Bold";
+}
+
+p,
+a {
+  color: white;
 }
 
 .right {
