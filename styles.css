@@ -50,11 +50,55 @@ h1 {
   font-family: "Norse Bold";
 }
 
-p,
+.photo-cred,
 a {
   color: white;
 }
 
 .right {
   display: flex;
+  flex-direction: column;
+  width: 65%;
+}
+
+.big-text {
+  color: black;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.top-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 44px;
+  padding-left: 24px;
+}
+
+.top {
+  display: flex;
+  align-items: flex-end;
+  background-color: #f9fafb;
+  height: 32%;
+  padding: 20px;
+}
+
+p {
+  margin: 0;
+  font-family: arial;
+}
+
+.big-text {
+  max-width: 650px;
+}
+
+.middle {
+  background-color: white;
+  height: 36%;
+  /* box-shadow: 0px 5px 5px black; */
+}
+
+.bottom {
+  background-color: #f9fafb;
+  height: 32%;
 }
