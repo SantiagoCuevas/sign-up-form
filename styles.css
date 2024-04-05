@@ -20,7 +20,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   height: 100vh;
-  width: 35%;
+  width: 40%;
   background-image: url(/Users/santiago/sign-up-form/samuel-ferrara-1527pjeb6jg-unsplash.jpg);
   background-size: cover;
   overflow: hidden;
@@ -95,7 +95,6 @@ p {
 .middle {
   background-color: white;
   height: 36%;
-  /* box-shadow: 0px 5px 5px black; */
 }
 
 .middle-container {
@@ -145,4 +144,27 @@ input {
 .bottom {
   background-color: #f9fafb;
   height: 32%;
+}
+
+.bottom-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 30px;
+  padding-left: 47px;
+}
+
+button {
+  color: white;
+  background-color: #061931;
+  width: 200px;
+  height: 50px;
+  border: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login {
+  color: #061931;
+  cursor: pointer;
 }
